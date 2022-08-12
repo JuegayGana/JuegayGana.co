@@ -162,6 +162,8 @@ footer{
 
 /* sloga */
 
-.detail-box p .slogan{
+.slogan{
     font-weight: bold;
+    color: #4e7e8e;
+    font-size: 40px;
 }
