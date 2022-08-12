@@ -1,27 +1,27 @@
-.galery01p{
+.galery01p {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
-.bory01p{
+.bory01p {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background:#121f3d;
+    background: #121f3d;
     flex-wrap: wrap;
 }
 
-.cardss{
+.cardss {
     position: relative;
     width: 300px;
     height: 350px;
     margin: 20px;
 }
 
-.cardss .faces{
+.cardss .faces {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -31,19 +31,19 @@
     transition: .5s;
 }
 
-.cardss .fronts{
+.cardss .fronts {
     transform: perspective(600px) rotateY(0deg);
     box-shadow: 0 5px 10px #000;
 }
 
-.cardss .fronts img{
+.cardss .fronts img {
     position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.cardss .fronts h3{
+.cardss .fronts h3 {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -53,7 +53,7 @@
     text-align: center;
 }
 
-.cardss .backs{
+.cardss .backs {
     transform: perspective(600px) rotateY(180deg);
     background: #1c1b1b;
     padding: 15px;
@@ -65,43 +65,43 @@
     box-shadow: 0 5px 10px #000;
 }
 
-.cardss .backs .links{
+.cardss .backs .links {
     border-top: solid 1px #f3f3f3;
     height: 50px;
     line-height: 50px;
 }
 
-.cardss .backs .links a{
+.cardss .backs .links a {
     color: #f3f3f3;
 }
 
-.cardss .backs .links a:hover{
+.cardss .backs .links a:hover {
     font-weight: 800;
 }
 
-.cardss .backs h3{
+.cardss .backs h3 {
     font-size: 30px;
     margin-top: 20px;
     letter-spacing: 2px;
 }
 
-.cardss .backs p{
+.cardss .backs p {
     letter-spacing: 1px;
     font-size: 12px;
 }
 
-.cardss:hover .fronts{
+.cardss:hover .fronts {
     transform: perspective(600px) rotateY(180deg);
 }
 
-.cardss:hover .backs{
+.cardss:hover .backs {
     transform: perspective(600px) rotateY(360deg);
 }
 
 
 /* footer */
 
-footer{
+footer {
     width: 100%;
     padding: 50px 0px;
     background-image: url(../images/background-footer.svg);
@@ -113,7 +113,7 @@ footer{
     mask-size: cover; */
 }
 
-.container_footer{
+.container_footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -123,16 +123,17 @@ footer{
     margin-top: 100px;
 }
 
-.box_footer{
+.box_footer {
     display: flex;
     flex-direction: column;
     padding: 40px;
 }
 
-.box_footer .logo_footer img{
+.box_footer .logo_footer img {
     width: 180px;
 }
-.box_footer .Terms_footer{
+
+.box_footer .Terms_footer {
     max-width: 350px;
     margin-top: 20px;
     font-weight: 500;
@@ -140,30 +141,69 @@ footer{
     font-size: 18px;
 }
 
-.box_footer h2{
+.box_footer h2 {
     margin-bottom: 30px;
     color: #343434;
     font-weight: 700;
 }
 
-.box_footer a{
+.box_footer a {
     margin-top: 10px;
-    color:#7a7a7a;
+    color: #7a7a7a;
     font-weight: 600;
 }
 
-.box_footer a:hover{
+.box_footer a:hover {
     opacity: 0.8;
 }
 
-.box_footer a fab{
+.box_footer a fab {
     font-size: 20px;
 }
 
 /* sloga */
 
-.slogan{
+.slogan {
     font-weight: bold;
     color: #000000;
     font-size: 35px;
 }
+
+.Link_contact {
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: #f7444e;
+    border: 1px solid #f7444e;
+    color: #ffffff;
+    border-radius: 35px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    margin-top: 35px;
+    font-weight: 600;
+    width: 100%;
+    max-width: 285px;
+}
+
+.Link_contact:hover {
+    background-color: transparent;
+    color: #000000;
+}
+
+.Whatsapp {
+    background-color: #41cba5;
+}
+
+.facebookw {
+    background-color: #196ed8;
+}
+
+.Instagram {
+    background-color: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+} 
+
+
