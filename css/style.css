@@ -217,7 +217,7 @@ a:focus {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #000000;
+  background-color: #ffffff;
   top: -10px;
   border-radius: 5px;
   -webkit-transition: all 0.3s;
@@ -272,7 +272,7 @@ a:focus {
 }
 
 .slider_section .detail-box h1 {
-    font-size: 4.5rem;
+    font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 15px;
     color: #002c3e;
@@ -281,6 +281,7 @@ a:focus {
 
 .slider_section .detail-box h1 span {
   color: #f7444e;
+  font-size: 3.5rem;
 }
 
 .slider_section .detail-box p {
@@ -528,25 +529,35 @@ a:focus {
 .arrival_section .heading_container {
   color: #002c3e;
   margin-bottom: 10px;
+  
+}
+.arrival_section .box p{
+  color: #7a7a7a;
+  font-weight: 600;
 }
 
 .arrival_section .box {
   padding: 120px 45px;
   position: relative;
+  
 }
 
 .arrival_section .arrival_bg_box {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: 50px;
+    left: 0px;
+    width: 60%;
+    height: auto;
     z-index: 3;
+    margin: auto;
+    
+    
+    
 }
 
 .arrival_section .arrival_bg_box img {
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: auto;
     -o-object-fit: cover;
     object-fit: cover;
     -o-object-position: top left;
