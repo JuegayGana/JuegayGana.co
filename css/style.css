@@ -366,8 +366,8 @@ a:focus {
     margin-top: 25px;
     padding: 35px 35px;
     background-color: #f7f8f9;
-    -webkit-transition: all .3s;
-    transition: all .3s;
+    -webkit-transition: all .6s;
+    transition: all .6s;
     overflow: hidden;
     box-shadow: 5px 5px 5px -5px rgba(0,0,0,.2);
     border: solid #fff 10px;
@@ -626,6 +626,11 @@ a:focus {
 
 .subscribe_section .subscribe_form .heading_container h2 {
   padding: 0 25px;
+}
+
+.subscribe_section .container-fuild p{
+ color: #7a7a7a;
+ font-weight: 600;
 }
 
 .subscribe_section .subscribe_form form {
@@ -923,7 +928,7 @@ a:focus {
 }
 
 .footer_section .footer-info p {
-    color: #ffffff;
+    color: #7a7a7a;
     margin: 0;
     padding: 20px 0;
     border-top: 1px solid rgba(255,255,255,0.2);
