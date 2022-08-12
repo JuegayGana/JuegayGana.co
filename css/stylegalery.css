@@ -75,6 +75,10 @@
     color: #f3f3f3;
 }
 
+.cardss .backs .links a:hover{
+    font-weight: 800;
+}
+
 .cardss .backs h3{
     font-size: 30px;
     margin-top: 20px;
@@ -156,4 +160,8 @@ footer{
     font-size: 20px;
 }
 
+/* sloga */
 
+.detail-box p .slogan{
+    font-weight: bold;
+}
